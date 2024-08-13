@@ -38,3 +38,8 @@ li {
     margin-top: 8px;
     
 }
+
+figcaption {
+    color: gray;
+    font-size: 14px;
+}
