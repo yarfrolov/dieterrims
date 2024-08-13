@@ -1,0 +1,39 @@
+	/* проверяем максимальную ширину экрана */
+	@media (max-width: 720px) {
+		h1, h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+        
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+			font-size : 18px;
+			line-height: 24px;
+		}
+		
+		body{
+			margin: 24px;	    
+		}
+
+        h2 {
+            font-size: 28px;
+        }
+        
+        li {
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: 4px;
+	};
+
+    figure {
+        width: 100%; /* Ширина области */
+        height: 400px; /* Высота области */
+        margin: 0; /* Обнуляем отступы */
+       }
+       figure, img { 
+        width: 100%; /* Ширина изображений */
+        height: 100%; /* Высота изображении */
+        object-fit: cover; /* Вписываем фотографию в область */
+       }
+    }
