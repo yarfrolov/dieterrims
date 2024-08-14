@@ -66,5 +66,5 @@
     }
 
     img {
-        cursor: url(img/cursor.svg) 2 2, default;
+        cursor: url('img/cursor.svg') 2 2, default;
     }
