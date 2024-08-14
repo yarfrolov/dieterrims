@@ -4,6 +4,10 @@ body, img {
     
 }
 
+section {
+    margin: 16px 0;
+}
+
 figure {
     margin: 0;
 }
@@ -20,6 +24,9 @@ p {
     margin-bottom: 24px;
     
 }
+
+
+
 
 h1, h2 {
     margin-top: 48px;
@@ -52,7 +59,11 @@ border: 0,5px solid gray ;
 blockquote {
     font-size: 26px;
     line-height: 32px;
-    color: rgb(120, 120, 120);
+    color: rgb(36, 36, 36);
     margin: 40px 0 ;
 
 }   
+
+
+
+
