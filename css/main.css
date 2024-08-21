@@ -2,33 +2,33 @@
 	@media (max-width: 720px) {
 
         body{
-		margin: 24px;	
-        	background-color: black;    
-       		color: aliceblue;
+			margin: 24px;	
+            background-color: black;    
+            color: aliceblue;
 		}
 
 
-	h1, h2 {
+		h1, h2 {
             margin-top: 48px;
             margin-bottom: 16px;
         
         }
 
-        p {
-        	font-family: Arial, Helvetica, sans-serif;	
-		font-size : 18px;
-		line-height: 24px;
+        p, tr, caption {
+            font-family: Arial, Helvetica, sans-serif;
+			font-size : 18px;
+			line-height: 24px;
             
 		}
 		
         h1 {
-            	font-size: 32px !important;
+            font-size: 32px !important;
 
 
         }
 
         h2 {
-            	font-size: 24px;
+            font-size: 24px;
         }
         
 
@@ -60,11 +60,11 @@
 
     }
 
-    p::selection, figcaption::selection, h1::selection, h2::selection, blockquote::selection, span::selection, li::selection {
+    p::selection, figcaption::selection, h1::selection, h2::selection, blockquote::selection, span::selection, li::selection, td::selection, th::selection, caption::selection {
         background-color: #F45928;
         color: white;
     }
 
-    body {
-        cursor: url("https://raw.githubusercontent.com/yarfrolov/dieterrims/e695af3e2d8cf6675cc880bd2b37446065d57beb/img/cursor.svg") 2 2, default;
+    img {
+        cursor: url(/img/cursor.svg) 2 2, default;
     }
